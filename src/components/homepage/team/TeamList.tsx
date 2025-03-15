@@ -10,8 +10,8 @@ export default function TeamList() {
   const teamList = [
     { name: t("first.name"), role: t("first.role"), photo: "ohrin" },
     { name: t("second.name"), role: t("second.role"), photo: "bilyk" },
-    { name: t("third.name"), role: t("third.role"), photo: "zvozda" },
-    { name: t("fourth.name"), role: t("fourth.role"), photo: "kotova" },
+    { name: t("third.name"), role: t("third.role"), photo: "kuznyak" },
+    { name: t("fourth.name"), role: t("fourth.role"), photo: "vysotska" },
   ];
 
   return (
