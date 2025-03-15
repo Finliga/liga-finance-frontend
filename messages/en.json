@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "title": "FINANCE LEAGUE | Comprehensive Accounting and Legal Services",
+    "description": "Accounting management, legal consultations, business registration, financial analytics, and electronic document workflow."
+  },
+  "homePage": {
+    "hero": {
+      "title": "Business accounting Support",
+      "subtitle": "– No mistakes, no risks, no additional costs!",
+      "description": "Entrust your finances to professionals and focus on growing your business. Reports, taxes, payroll – we handle it all for you!"
+    },
+    "about": {
+      "titleFirst": "Finance League – a company providing professional outsourced accounting services",
+      "descriptionFirst": "Our team of accountants, financial experts, and lawyers ensures a comprehensive approach to solving both current and strategic tasks, offering tailored solutions for each client based on their specific business needs.",
+      "titleSecond": "Accounting and Legal Services",
+      "descriptionSecond": "We simplify business operations by providing you with confident business process management, optimizing your activities, and allowing you to focus on growth and improvement, regardless of the scale of your enterprise."
+    },
+    "services": {
+      "accountingServices": {
+        "title": "Accounting services",
+        "list": {
+          "first": "Sole proprietor accounting",
+          "second": "Comprehensive support",
+          "third": "Payroll and HR records",
+          "fourth": "Obtaining extracts from registers",
+          "fifth": "Consulting services"
+        }
+      },
+      "legalServices": {
+        "title": "Legal services",
+        "list": {
+          "first": "Business registration",
+          "second": "Legal consultations",
+          "third": "Employment contracts",
+          "fourth": "Preparation of documents for unblocking",
+          "fifth": "Amendments to businesses"
+        }
+      },
+      "financialServices": {
+        "title": "Financial management",
+        "list": {
+          "first": "Electronic document workflow",
+          "second": "Financial reporting",
+          "third": "P&L reporting",
+          "fourth": "Cash flow reporting",
+          "fifth": "CRM system integrations"
+        }
+      }
+    },
+    "getCalculation": {
+      "title": "Get your accounting estimate",
+      "description": "We take care of all accounting, tax, and financial matters so you can focus on what truly matters – growing your business."
+    },
+    "industries": {
+      "title": "Industries we work with",
+      "trade": "Wholesale, retail trade",
+      "agricultural": "Agriculture",
+      "manufacturing": "Manufacturing",
+      "services": "Services",
+      "charity": "Non-profit charitable organizations",
+      "advertisement": "Media and advertising",
+      "it": "IT industry and technology",
+      "medicine": "Medicine",
+      "construction": "Construction and repair"
+    },
+    "statistics": {
+      "clients": "Happy clients",
+      "deals": "Successful deals",
+      "calls": "Useful calls",
+      "consultations": "Consultations"
+    },
+    "clients": {
+      "title": "Our clients"
+    },
+    "calculator": {
+      "title": "Service cost calculator",
+      "employees": "Number of company employees",
+      "operations": "Number of operations per month",
+      "ownership": {
+        "title": "Ownership form",
+        "tov": "LLC",
+        "fop": "Sole Proprietor",
+        "other": "Other"
+      },
+      "estimatedCost": "Estimated cost: ",
+      "hrnPerMonth": " UAH/month"
+    },
+    "getSuccess": {
+      "title": "Accounting that works for your success!",
+      "description": "We take care of all accounting, tax, and financial matters so you can focus on what truly matters – growing your business."
+    },
+    "disadvantages": {
+      "title": "Disadvantages of handling accounting yourself",
+      "first": "Time loss – instead of growing your business, you have to deal with reports, taxes, and accounting details.",
+      "second": "Risk of mistakes – even a minor inaccuracy in calculations or tax reporting can lead to fines.",
+      "third": "Changes in legislation – accounting norms are constantly updated, and without professional support, it’s easy to miss important changes.",
+      "fourth": "Lack of optimization – without deep financial knowledge, you may overpay taxes and miss out on available benefits.",
+      "fifth": "Stress and responsibility – financial mistakes can cost your business reputation and money."
+    },
+    "benefits": {
+      "title": "Benefits of working with us",
+      "first": "Time savings – we take care of all accounting so you can focus on growing your business.",
+      "second": "Safety and accuracy – we guarantee the correctness of accounting and reporting, minimizing the risks of fines and<br/>  mistakes.",
+      "third": "Relevance of knowledge – we <br/> monitor all changes in legislation<br/>  and promptly adapt your<br/>  accounting.",
+      "fourth": "Free consultation – see our<br/>  professionalism today!"
+    },
+    "steps": {
+      "title": "Steps to work with us",
+      "firstTitle": "Step one",
+      "firstDescription": "We provide a comprehensive consultation",
+      "secondTitle": "Step two",
+      "secondDescription": "We sign the contract",
+      "thirdTitle": "Step three",
+      "thirdDescription": "We request access details",
+      "fourthTitle": "Step four",
+      "fourthDescription": "We assign an accountant and begin"
+    },
+    "team": {
+      "title": "Our team – your reliable financial partner",
+      "description": "We are a team of experienced accountants, tax consultants, and financial experts working for your success.",
+      "first": {
+        "name": "Anastasia Okhrin",
+        "role": "Lead accountant"
+      },
+      "second": {
+        "name": "Irina Bilyk",
+        "role": "Accountant"
+      },
+      "third": {
+        "name": "Olga Zvozda",
+        "role": "Accountant"
+      },
+      "fourth": {
+        "name": "Andriana Kotova",
+        "role": "Accountant"
+      }
+    },
+    "getConsultation": {
+      "title": "Get a consultation in minutes!",
+      "description": "Leave your details, and a manager will contact you right now. Get a free consultation and calculation."
+    }
+  },
+  "buttons": {
+    "leaveContacts": "Leave contacts",
+    "freeConsultation": "Free consultation",
+    "sendMessage": "Send message",
+    "sending": "Sending..."
+  },
+  "header": {
+    "freeConsultation": {
+      "title": "Want a free consultation?",
+      "description": "Leave your details, and a manager will contact you right now."
+    },
+    "menu": {
+      "about": "About us",
+      "services": "Our services",
+      "industries": "Industries",
+      "calculator": "Service calculator",
+      "comparison": "Comparison",
+      "steps": "Working process",
+      "team": "Our team",
+      "clients": "Our clients"
+    }
+  },
+  "footer": {
+    "phone": "Phone: ",
+    "email": "Email: ",
+    "address": {
+      "first": "22 Khreshchatyk St.",
+      "second": "Kyiv, 01001, Ukraine"
+    },
+    "menu": "Site menu",
+    "rights": "© 2025 Finance Ligue",
+    "develop": "Website developed by - "
+  },
+  "forms": {
+    "namePlaceholder": "Name",
+    "phonePlaceholder": "Phone number",
+    "errors": {
+      "required": "This field is required",
+      "wrongPhone": "Please enter a valid phone number",
+      "nameMinMaxSymbols": "Name must be between 2 and 30 characters",
+      "nameAllowedSymbols": "Allowed letters, hyphen, apostrophe, and quotes",
+      "startsWithZero": "Phone number must start with zero"
+    }
+  },
+  "popUps": {
+    "notifications": {
+      "successful": {
+        "title": "Your request has been successfully sent!",
+        "description": "Our managers are already processing your request and will contact you shortly."
+      },
+      "unsuccessful": {
+        "title": "Request submission failed!",
+        "description": "Unfortunately, something went wrong. Please try submitting your request again or call us."
+      }
+    }
+  }
+}
