@@ -24,7 +24,7 @@ export default function About() {
           <AnimatedWrapper
             as={motion.p}
             animation={fadeInAnimation({ y: 20, delay: 0.3 })}
-            className="mb-9 tab:mb-[46px] text-black leading-[130%]"
+            className="mb-9 text-[18px] tab:mb-[46px] text-black leading-[130%]"
           >
             {t("descriptionFirst")}
           </AnimatedWrapper>
@@ -78,7 +78,7 @@ export default function About() {
           <AnimatedWrapper
             as={motion.p}
             animation={fadeInAnimation({ y: 20, delay: 0.3 })}
-            className="tab:order-1 mb-9 tab:mb-0 text-black leading-[130%]"
+            className="text-[18px] tab:order-1 mb-9 tab:mb-0 text-black leading-[130%]"
           >
             {t("descriptionSecond")}
           </AnimatedWrapper>

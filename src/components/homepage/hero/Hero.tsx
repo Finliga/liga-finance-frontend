@@ -48,7 +48,7 @@ export default function Hero() {
           <h1 className="tab:order-2 mb-5 tab:mb-6 max-w-[438px] mx-auto tab:mx-0 font-prosto text-26reg tab:text-36reg uppercase text-center leading-[125%] tab:text-left">
             {t("homePage.hero.title")}
           </h1>
-          <p className="tab:order-3 mb-7 tab:mb-0 max-w-[438px] mx-auto tab:mx-0 text-center tab:text-left leading-[125%]">
+          <p className="tab:order-3 mb-7 tab:mb-0 max-w-[438px] mx-auto tab:mx-0 text-center tab:text-left leading-[125%] text-[18px]">
             {t("homePage.hero.description")}
           </p>
           <Link

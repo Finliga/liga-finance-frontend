@@ -34,7 +34,7 @@ export default function GetConsultation() {
           <AnimatedWrapper
             as={motion.p}
             animation={fadeInAnimation({ x: -100 })}
-            className="mb-8 xl:mb-12 text-center tab:text-left leading-[125%]"
+            className="mb-8 xl:mb-12 text-center tab:text-left leading-[125%] text-[18px] "
           >
             {t("description")}
           </AnimatedWrapper>

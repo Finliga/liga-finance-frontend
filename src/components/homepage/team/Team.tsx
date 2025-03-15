@@ -21,7 +21,7 @@ export default function Team() {
       <AnimatedWrapper
         as={motion.p}
         animation={fadeInAnimation({ x: 50, delay: 0.6 })}
-        className="max-w-[442px] mb-[53px] xl:mb-[83px]"
+        className="max-w-[442px] mb-[53px] xl:mb-[83px] text-[18px]"
       >
         {t("description")}
       </AnimatedWrapper>
