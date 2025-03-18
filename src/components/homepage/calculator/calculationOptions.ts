@@ -2,16 +2,16 @@ export const options = [
   {
     value: "tov",
     formula: (employees: number, operations: number) =>
-      employees * operations * 170,
+      employees * operations * 80,
   },
   {
     value: "fop",
     formula: (employees: number, operations: number) =>
-      employees * operations * 150,
+      employees * operations * 60,
   },
   {
     value: "other",
     formula: (employees: number, operations: number) =>
-      employees * operations * 120,
+      employees * operations * 40,
   },
 ];

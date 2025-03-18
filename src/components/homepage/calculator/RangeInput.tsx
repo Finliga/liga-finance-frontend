@@ -55,7 +55,7 @@ export default function RangeInput({
         step={1}
         aria-label="quantity"
         startContent="1"
-        endContent={`${maxValue === 150 ? `${maxValue}+` : maxValue}`}
+        endContent={`${maxValue}+`}
       />
     </AnimatedListItem>
   );
