@@ -23,7 +23,7 @@ export default function StepsListMob() {
               {t("firstTitle")}
             </h3>
           </div>
-          <p className="max-w-[116px] font-prosto text-12reg uppercase">
+          <p className="max-w-[156px] font-prosto text-12reg uppercase">
             {t("firstDescription")}
           </p>
         </div>
@@ -65,7 +65,7 @@ export default function StepsListMob() {
               {t("thirdTitle")}
             </h3>
           </div>
-          <p className="max-w-[136px] font-prosto text-12reg uppercase">
+          <p className="max-w-[126px] font-prosto text-12reg uppercase">
             {t("thirdDescription")}
           </p>
         </div>
