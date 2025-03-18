@@ -1,5 +1,5 @@
 import { PHONE, EMAIL, ADDRESS_LINK } from "@/constants/constants";
-import { phoneRegex } from "@/regex/regex";
+import { headerPhoneRegex } from "@/regex/regex";
 import { useTranslations } from "next-intl";
 
 export default function FooterInfo() {
@@ -16,7 +16,7 @@ export default function FooterInfo() {
             aria-label="phone number"
             className="lg:hover:text-blue focus-visible:text-blue transition duration-300 ease-in-out"
           >
-            {PHONE.replace(phoneRegex, "$1($2) $3 $4 $5")}
+            {PHONE.replace(headerPhoneRegex, "$1-$2-$3-$4-$5")}
           </a>
         </div>
         <div className="mb-2 tab:mb-0">

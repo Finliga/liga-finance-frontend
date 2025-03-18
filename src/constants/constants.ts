@@ -1,4 +1,4 @@
-export const PHONE = "+380441234567";
+export const PHONE = "+380633708462";
 
 export const EMAIL = "info@mysite.ua";
 
