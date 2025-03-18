@@ -17,6 +17,9 @@ interface LocaleLayoutProps {
   params: Promise<{ locale: string }>;
 }
 
+const GTM_ID = "GTM-TCR6ZPNN";
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
 const montserrat = Montserrat({
   weight: ["300", "400", "500"],
   variable: "--font-montserrat",
@@ -62,7 +65,9 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="scroll-smooth">
       <head>
-        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID || ""} />
+        <GoogleTagManager
+          gtmId={baseUrl === "https://www.finliga.com.ua/" ? GTM_ID : ""}
+        />
       </head>
       <body
         className={`${montserrat.variable} ${prosto.variable} relative z-[1] flex min-h-screen flex-col antialiased text-12light lg:text-16light`}
