@@ -1,5 +1,3 @@
-export const companyName = "Finance League";
-
 export const PHONE = "+380441234567";
 
 export const EMAIL = "info@mysite.ua";
