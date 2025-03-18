@@ -8,10 +8,10 @@ export default function StatisticsList() {
   const t = useTranslations("homePage.statistics");
 
   const statisticsList = [
-    { count: "1000+", description: t("clients") },
-    { count: "98%", description: t("deals") },
-    { count: "250+", description: t("calls") },
-    { count: "1000+", description: t("consultations") },
+    { count: "5+", description: t("years") },
+    { count: "100+", description: t("clients") },
+    { count: "80%", description: t("time") },
+    { count: "750+", description: t("consultations") },
   ];
   return (
     <AnimatedWrapper

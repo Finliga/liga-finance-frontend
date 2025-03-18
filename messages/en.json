@@ -64,10 +64,10 @@
       "construction": "Construction and repair"
     },
     "statistics": {
-      "clients": "Happy clients",
-      "deals": "Successful deals",
-      "calls": "Useful calls",
-      "consultations": "Consultations"
+      "years": "years of reliable service",
+      "clients": "clients under service maintenance",
+      "time": "hours of time saved on accounting",
+      "consultations": "hours of consultations"
     },
     "clients": {
       "title": "Our clients"
