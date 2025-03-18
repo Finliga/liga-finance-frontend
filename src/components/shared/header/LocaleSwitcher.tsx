@@ -1,6 +1,5 @@
 "use client";
 import { useState, useRef, useEffect, useCallback } from "react";
-import { useSearchParams } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { Locale } from "@/types/locale";
@@ -15,12 +14,11 @@ export default function LocaleSwitcher() {
   const currentLocale = useLocale();
   const pathName = usePathname();
   const router = useRouter();
-  const searchParams = useSearchParams();
 
   const handleLocaleChange = (newLocale: Locale) => {
     const hash = window.location.hash;
 
-    const newPath = `${pathName}${hash}?${searchParams.toString()}`;
+    const newPath = `${pathName}${hash}`;
 
     router.replace(newPath, { locale: newLocale });
 
