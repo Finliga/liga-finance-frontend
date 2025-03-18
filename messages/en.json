@@ -19,9 +19,9 @@
       "accountingServices": {
         "title": "Accounting services",
         "list": {
-          "first": "Sole proprietor accounting",
-          "second": "Comprehensive support for legal entities and individuals",
-          "third": "Payroll and HR records",
+          "first": "Comprehensive support for legal entities and individuals",
+          "second": "HR record management",
+          "third": "Accounting restoration",
           "fourth": "Obtaining extracts from registers",
           "fifth": "Consulting services"
         }
