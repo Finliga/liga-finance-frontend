@@ -21,18 +21,6 @@ export default function GetSuccessImages() {
           className="w-[230px] tab:w-[488px] lg:w-[628px] h-auto"
         />
       </AnimatedWrapper>
-      <AnimatedWrapper
-        animation={fadeInAnimation({ scale: 0.8 })}
-        className="hidden lg:block absolute -z-10 bottom-[-98px] left-[89px] w-[476px] h-auto"
-      >
-        <Image
-          src="/images/getSuccess/woman.webp"
-          alt="woman"
-          width={952}
-          height={1172}
-          className="w-[476px] h-auto"
-        />
-      </AnimatedWrapper>
     </>
   );
 }
