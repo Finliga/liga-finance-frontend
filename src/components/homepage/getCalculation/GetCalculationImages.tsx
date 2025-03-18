@@ -22,18 +22,6 @@ export default function GetCalculationImages() {
           className="w-[230px] tab:w-[428px] lg:w-[558px] h-auto"
         />
       </AnimatedWrapper>
-      <AnimatedWrapper
-        animation={fadeInAnimation({ scale: 0.8 })}
-        className="hidden lg:block absolute -z-10 bottom-[-120px] tab:bottom-[-98px] right-[145px] w-[452px] h-auto"
-      >
-        <Image
-          src="/images/getCalculation/woman.webp"
-          alt="woman"
-          width={904}
-          height={1286}
-          className="w-[452px] h-auto"
-        />
-      </AnimatedWrapper>
     </>
   );
 }

@@ -11,7 +11,7 @@ import { listVariants, fadeInAnimation } from "@/helpers/animation";
 export default function CostsCalculator() {
   const t = useTranslations("homePage.calculator");
   const [employees, setEmployees] = useState(30);
-  const [operations, setOperations] = useState(3);
+  const [operations, setOperations] = useState(15);
   const [ownershipForm, setOwnershipForm] = useState("tov");
   const [estimatedCost, setEstimatedCost] = useState(0);
 
@@ -22,7 +22,7 @@ export default function CostsCalculator() {
     },
     {
       label: t("operations"),
-      maxValue: 10,
+      maxValue: 70,
     },
   ];
 

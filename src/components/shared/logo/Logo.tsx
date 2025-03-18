@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { companyName } from "@/constants/constants";
 import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 interface LogoProps {
   className: string;
@@ -8,6 +8,7 @@ interface LogoProps {
 }
 
 export default function Logo({ className, textStyles }: LogoProps) {
+  const t = useTranslations();
   return (
     <Link href="/" className="flex gap-2 xl:gap-[10px] items-center">
       <Image
@@ -17,7 +18,9 @@ export default function Logo({ className, textStyles }: LogoProps) {
         height="26"
         className={className}
       />
-      <p className={`font-prosto uppercase ${textStyles}`}>{companyName}</p>
+      <p className={`font-prosto uppercase ${textStyles}`}>
+        {t("companyName")}
+      </p>
     </Link>
   );
 }

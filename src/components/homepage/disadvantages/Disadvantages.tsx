@@ -11,11 +11,11 @@ export default function Disadvantages() {
       id="comparison"
       className="container max-w-[1280px] py-[100px] xl:py-[180px] scroll-mt-6"
     >
-      <div className="max-w-[571px] desk:max-w-[834px] mx-auto">
+      <div className="max-w-[654px] xl:max-w-full mx-auto">
         <AnimatedWrapper
           as={motion.h2}
           animation={fadeInAnimation({ y: 50 })}
-          className="max-w-[571px] desk:max-w-[834px] mb-9 xl:mb-12 mx-auto font-prosto text-20reg xl:text-36reg uppercase text-center"
+          className="mb-9 xl:mb-12 mx-auto font-prosto text-20reg xl:text-36reg uppercase text-center"
         >
           {t("title")}
         </AnimatedWrapper>

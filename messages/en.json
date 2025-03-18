@@ -6,8 +6,8 @@
   "homePage": {
     "hero": {
       "title": "Business accounting Support",
-      "subtitle": "– No mistakes, no risks, no additional costs!",
-      "description": "Entrust your finances to professionals and focus on growing your business. Reports, taxes, payroll – we handle it all for you!"
+      "subtitle": "Accounting outsourcing for your modern business",
+      "description": "Effective, ready-to-use solutions for your business. You focus on growing your company, we’ll handle the rest!"
     },
     "about": {
       "titleFirst": "Finance League – a company providing professional outsourced accounting services",
@@ -20,7 +20,7 @@
         "title": "Accounting services",
         "list": {
           "first": "Sole proprietor accounting",
-          "second": "Comprehensive support",
+          "second": "Comprehensive support for legal entities and individuals",
           "third": "Payroll and HR records",
           "fourth": "Obtaining extracts from registers",
           "fifth": "Consulting services"
@@ -49,7 +49,7 @@
     },
     "getCalculation": {
       "title": "Get your accounting estimate",
-      "description": "We take care of all accounting, tax, and financial matters so you can focus on what truly matters – growing your business."
+      "description": "We take care of all accounting, tax, and financial matters so You can focus on what truly matters – growing your business."
     },
     "industries": {
       "title": "Industries we work with",
@@ -64,10 +64,10 @@
       "construction": "Construction and repair"
     },
     "statistics": {
-      "clients": "Happy clients",
-      "deals": "Successful deals",
-      "calls": "Useful calls",
-      "consultations": "Consultations"
+      "years": "years of reliable service",
+      "clients": "clients under service maintenance",
+      "time": "hours of time saved on accounting",
+      "consultations": "hours of consultations"
     },
     "clients": {
       "title": "Our clients"
@@ -87,7 +87,7 @@
     },
     "getSuccess": {
       "title": "Accounting that works for your success!",
-      "description": "We take care of all accounting, tax, and financial matters so you can focus on what truly matters – growing your business."
+      "description": "We help our Clients' businesses grow and develop by uncovering free resources, optimizing tax burdens, and increasing profitability."
     },
     "disadvantages": {
       "title": "Disadvantages of handling accounting yourself",
@@ -105,15 +105,15 @@
       "fourth": "Free consultation – see our<br/>  professionalism today!"
     },
     "steps": {
-      "title": "Steps to work with us",
-      "firstTitle": "Step one",
-      "firstDescription": "We provide a comprehensive consultation",
-      "secondTitle": "Step two",
-      "secondDescription": "We sign the contract",
-      "thirdTitle": "Step three",
-      "thirdDescription": "We request access details",
-      "fourthTitle": "Step four",
-      "fourthDescription": "We assign an accountant and begin"
+      "title": "Steps of working with us",
+      "firstTitle": "Step One",
+      "firstDescription": "Express audit of current activities",
+      "secondTitle": "Step Two",
+      "secondDescription": "Contract signing",
+      "thirdTitle": "Step Three",
+      "thirdDescription": "Providing access",
+      "fourthTitle": "Step Four",
+      "fourthDescription": "Assigning an accountant and starting cooperation"
     },
     "team": {
       "title": "Our team – your reliable financial partner",
@@ -137,7 +137,7 @@
     },
     "getConsultation": {
       "title": "Get a consultation in minutes!",
-      "description": "Leave your details, and a manager will contact you right now. Get a free consultation and calculation."
+      "description": "We are happy to discuss your projects and offer effective solutions. Leave your contact details, and our manager will get in touch with you."
     }
   },
   "buttons": {
@@ -166,8 +166,8 @@
     "phone": "Phone: ",
     "email": "Email: ",
     "address": {
-      "first": "22 Khreshchatyk St.",
-      "second": "Kyiv, 01001, Ukraine"
+      "first": "Kyiv, 8 Johnsa Haret Street, office 7",
+      "second": "Lviv, 12 Soborna Square, office 62"
     },
     "menu": "Site menu",
     "rights": "© 2025 Finance Ligue",
@@ -195,5 +195,6 @@
         "description": "Unfortunately, something went wrong. Please try submitting your request again or call us."
       }
     }
-  }
+  },
+  "companyName": "Finance League"
 }

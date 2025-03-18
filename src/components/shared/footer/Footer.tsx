@@ -12,14 +12,14 @@ export default function Footer() {
         alt="logo"
         width={538}
         height={586}
-        className="tab:hidden absolute bottom-[40px] -right-7 w-[159px] h-auto"
+        className="tab:hidden absolute bottom-[40px] -right-10 w-[159px] h-auto"
       />
       <div className="container max-w-[1280px]">
         <Logo
           className="w-6 tab:w-[45px] h-auto"
           textStyles="text-12reg tab:text-24reg"
         />
-        <div className="xl:flex items-center justify-between mt-6 tab:mt-10">
+        <div className="mt-6 tab:mt-10">
           <NavMenu />
           <FooterInfo />
         </div>

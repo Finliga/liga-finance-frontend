@@ -25,7 +25,7 @@ export default function StepsListDesk() {
           <p className="mb-[106px] text-100reg xl:text-276reg leading-none text-center">
             1
           </p>
-          <p className="max-w-[154px] mr-auto mt-auto font-prosto text-12reg tab:text-16reg uppercase leading-[130%]">
+          <p className="max-w-[154px] lg:max-w-[194px] mr-auto mt-auto font-prosto text-12reg tab:text-16reg uppercase leading-[130%]">
             {t("firstDescription")}
           </p>
         </div>
@@ -71,7 +71,7 @@ export default function StepsListDesk() {
         </div>
         <p className="mb-[106px] text-100reg xl:text-276reg leading-none">3</p>
 
-        <p className="max-w-[230px] mr-auto mt-auto font-prosto text-12reg tab:text-16reg xl:text-20reg uppercase leading-[130%]">
+        <p className="max-w-[180px] mr-auto mt-auto font-prosto text-12reg tab:text-16reg xl:text-20reg uppercase leading-[130%]">
           {t("thirdDescription")}
         </p>
       </AnimatedListItem>
