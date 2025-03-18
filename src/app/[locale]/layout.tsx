@@ -10,6 +10,7 @@ import { generatePageMetaData } from "@/utils/generatePageMetadata";
 import "./globals.css";
 import Providers from "./providers";
 import type { Viewport } from "next";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -60,6 +61,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="scroll-smooth">
+      <head>
+        <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM_ID || ""} />
+      </head>
       <body
         className={`${montserrat.variable} ${prosto.variable} relative z-[1] flex min-h-screen flex-col antialiased text-12light lg:text-16light`}
       >
