@@ -1,6 +1,6 @@
 export const PHONE = "+380633708462";
 
-export const EMAIL = "info@mysite.ua";
+export const EMAIL = "ligafinansiv@gmail.com";
 
 export const ADDRESS_LINK = "";
 
