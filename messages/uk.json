@@ -167,11 +167,11 @@
     "phone": "Тел: ",
     "email": "Email: ",
     "address": {
-      "first": "вул. Хрещатик, 22",
-      "second": "м. Київ, 01001, Україна"
+      "first": "Київ, вул. Джонса Ґарета 8, оф. 7",
+      "second": "Львів, площа Соборна 12, оф. 62"
     },
     "menu": "Меню сайту",
-    "rights": "© 2025 Finance ligue",
+    "rights": "© 2025 Finance league",
     "develop": "Сайт розробили - "
   },
   "forms": {
