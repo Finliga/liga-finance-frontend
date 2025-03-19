@@ -7,7 +7,7 @@ export default function HeroImages() {
     <>
       <AnimatedWrapper
         animation={fadeInAnimation({ y: 100, delay: 0.8 })}
-        className="absolute -z-30 top-[160px] tab:top-auto left-[calc(50%-160px)] tab:left-auto tab:bottom-[280px] tab:right-[230px] 
+        className="absolute -z-30 top-[130px] tab:top-auto left-[calc(50%-160px)] tab:left-auto tab:bottom-[280px] tab:right-[230px] 
           xl:bottom-[-16px] xl:right-[63px] w-[135px] tab:w-[205px] xl:w-[269px] h-auto"
       >
         <Image

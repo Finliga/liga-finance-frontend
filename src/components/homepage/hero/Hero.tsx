@@ -36,7 +36,7 @@ export default function Hero() {
         <AnimatedWrapper
           animation={fadeInAnimation({ x: -100 })}
           as={motion.h2}
-          className="mb-[314px] tab:mb-[271px] w-[177px] tab:w-[323px] font-prosto text-14reg tab:text-24reg uppercase leading-[125%]"
+          className="mb-[284px] tab:mb-[228px] w-[177px] tab:w-[323px] font-prosto text-14reg tab:text-24reg uppercase leading-[125%]"
         >
           {renderTextWithBreaks(t("homePage.hero.subtitle"))}
         </AnimatedWrapper>
@@ -51,7 +51,7 @@ export default function Hero() {
           <AnimatedWrapper
             as={motion.p}
             animation={fadeInAnimation({ y: 100, delay: 0.4 })}
-            className="tab:order-3 mb-7 tab:mb-0 max-w-[438px] mx-auto tab:mx-0 text-center tab:text-left leading-[125%] text-[18px]"
+            className="tab:order-3 mb-7 tab:mb-0 max-w-[438px] mx-auto tab:mx-0 text-center tab:text-left leading-[125%] text-12light tab:text-16light"
           >
             {t("homePage.hero.description")}
           </AnimatedWrapper>
