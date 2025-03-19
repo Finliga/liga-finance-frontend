@@ -1,11 +1,10 @@
-import MainButton from "@/components/shared/buttons/MainButton";
-import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import HeroImages from "./HeroImages";
 import Image from "next/image";
 import AnimatedWrapper from "@/components/shared/animatedWrapper/AnimatedWrapper";
 import { fadeInAnimation } from "@/helpers/animation";
 import { motion } from "framer-motion";
+import FreeConsultationApplication from "./FreeConsultationApplication";
 
 export default function Hero() {
   const t = useTranslations();
@@ -41,25 +40,23 @@ export default function Hero() {
         >
           {renderTextWithBreaks(t("homePage.hero.subtitle"))}
         </AnimatedWrapper>
-        <AnimatedWrapper
-          animation={fadeInAnimation({ y: 100, delay: 0.4 })}
-          className="flex flex-col"
-        >
-          <h1 className="tab:order-2 mb-5 tab:mb-6 max-w-[438px] mx-auto tab:mx-0 font-prosto text-26reg tab:text-36reg uppercase text-center leading-[125%] tab:text-left">
-            {t("homePage.hero.title")}
-          </h1>
-          <p className="tab:order-3 mb-7 tab:mb-0 max-w-[438px] mx-auto tab:mx-0 text-center tab:text-left leading-[125%] text-[18px]">
-            {t("homePage.hero.description")}
-          </p>
-          <Link
-            href="#consultation"
-            className="block tab:order-1 w-full max-w-[310px] mx-auto tab:mx-0 tab:mb-12"
+        <div className="flex flex-col">
+          <AnimatedWrapper
+            as={motion.h1}
+            animation={fadeInAnimation({ y: 100, delay: 0.4 })}
+            className="tab:order-2 mb-5 tab:mb-6 tab:mt-12 max-w-[438px] mx-auto tab:mx-0 font-prosto text-26reg tab:text-36reg uppercase text-center leading-[125%] tab:text-left"
           >
-            <MainButton className="w-full">
-              {t("buttons.freeConsultation")}
-            </MainButton>
-          </Link>
-        </AnimatedWrapper>
+            {t("homePage.hero.title")}
+          </AnimatedWrapper>
+          <AnimatedWrapper
+            as={motion.p}
+            animation={fadeInAnimation({ y: 100, delay: 0.4 })}
+            className="tab:order-3 mb-7 tab:mb-0 max-w-[438px] mx-auto tab:mx-0 text-center tab:text-left leading-[125%] text-[18px]"
+          >
+            {t("homePage.hero.description")}
+          </AnimatedWrapper>
+          <FreeConsultationApplication />
+        </div>
         <HeroImages />
       </div>
     </section>

@@ -7,7 +7,8 @@ export const handleSubmitForm = async <T>(
   setIsLoading: Dispatch<SetStateAction<boolean>>,
   setIsError: Dispatch<SetStateAction<boolean>>,
   setIsNotificationShown: Dispatch<SetStateAction<boolean>>,
-  data: string
+  data: string,
+  setIsPopUpShown?: Dispatch<SetStateAction<boolean>>
 ) => {
   try {
     setIsLoading(true);
@@ -22,6 +23,9 @@ export const handleSubmitForm = async <T>(
     });
 
     resetForm();
+    if (setIsPopUpShown) {
+      setIsPopUpShown(false);
+    }
   } catch (error) {
     setIsError(true);
     return error;
