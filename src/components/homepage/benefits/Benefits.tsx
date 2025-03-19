@@ -42,7 +42,7 @@ export default function Benefits() {
 
         <AnimatedWrapper
           animation={fadeInAnimation({ x: 100, delay: 1.6 })}
-          className="tab:hidden absolute bottom-[-364px] sm:bottom-[-398px] right-0 -z-10 w-full h-[535px] sm:h-[660px] overflow-hidden"
+          className="tab:hidden absolute bottom-[-364px] sm:bottom-[-398px] -right-3 sm:right-0 -z-10 w-full h-[525px] moblg:h-[535px] sm:h-[660px] overflow-hidden"
         >
           <Image
             src="/images/benefits/bgMob.webp"

@@ -34,7 +34,7 @@ export default function Hero() {
       />
       <div className="relative container max-w-[1280px]">
         <AnimatedWrapper
-          animation={fadeInAnimation({ x: -100 })}
+          animation={fadeInAnimation({ x: -50 })}
           as={motion.h2}
           className="mb-[284px] tab:mb-[228px] w-[177px] tab:w-[323px] font-prosto text-14reg tab:text-24reg uppercase leading-[125%]"
         >
@@ -43,14 +43,14 @@ export default function Hero() {
         <div className="flex flex-col">
           <AnimatedWrapper
             as={motion.h1}
-            animation={fadeInAnimation({ y: 100, delay: 0.4 })}
+            animation={fadeInAnimation({ y: 50, delay: 0.4 })}
             className="tab:order-2 mb-5 tab:mb-6 tab:mt-12 max-w-[438px] mx-auto tab:mx-0 font-prosto text-26reg tab:text-36reg uppercase text-center leading-[125%] tab:text-left"
           >
             {t("homePage.hero.title")}
           </AnimatedWrapper>
           <AnimatedWrapper
             as={motion.p}
-            animation={fadeInAnimation({ y: 100, delay: 0.4 })}
+            animation={fadeInAnimation({ y: 50, delay: 0.4 })}
             className="tab:order-3 mb-7 tab:mb-0 max-w-[438px] mx-auto tab:mx-0 text-center tab:text-left leading-[125%] text-12light tab:text-16light"
           >
             {t("homePage.hero.description")}

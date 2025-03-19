@@ -13,7 +13,10 @@ export default function FreeConsultationApplication() {
 
   return (
     <>
-      <AnimatedWrapper animation={fadeInAnimation({ y: 100, delay: 0.4 })}>
+      <AnimatedWrapper
+        viewport={{ once: true, amount: 0.1 }}
+        animation={fadeInAnimation({ y: 50, delay: 0.4 })}
+      >
         <MainButton
           onClick={() => setIsPopUpShown(true)}
           className="w-full max-w-[310px] tab:max-w-[276px] mx-auto tab:mx-0"
