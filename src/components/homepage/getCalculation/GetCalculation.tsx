@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { fadeInAnimation } from "@/helpers/animation";
 
 export default function GetCalculation() {
-  const t = useTranslations("homePage.getCalculation");
+  const t = useTranslations();
 
   return (
     <section className="relative pt-[140px] pb-[120px] tab:py-[98px] overflow-hidden">
@@ -26,16 +26,22 @@ export default function GetCalculation() {
             animation={fadeInAnimation({ x: 100 })}
             className="mb-6 xl:mb-7 font-prosto uppercase text-center tab:text-left text-24reg xl:text-32reg leading-[125%]"
           >
-            {t("title")}
+            {t("homePage.getCalculation.title")}
           </AnimatedWrapper>
           <AnimatedWrapper
             as={motion.p}
             animation={fadeInAnimation({ x: -100 })}
             className="mb-8 xl:mb-12 text-center tab:text-left leading-[125%] text-[18px] "
           >
-            {t("description")}
+            {t("homePage.getCalculation.description")}
           </AnimatedWrapper>
-          <CallBackApplication />
+          <CallBackApplication
+            text={t("buttons.send")}
+            title={t("popUps.notifications.getCalculationSuccessful.title")}
+            description={t(
+              "popUps.notifications.getCalculationSuccessful.description"
+            )}
+          />
         </div>
         <GetCalculationImages />
       </div>

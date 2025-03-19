@@ -16,21 +16,22 @@ export default function CallBackPop({
 }: CallBackPopUpProps) {
   const [isError, setIsError] = useState(false);
   const [isNotificationShown, setIsNotificationShown] = useState(false);
-  const t = useTranslations("homePage.getConsultation");
+  const t = useTranslations();
 
   return (
     <>
       <Modal isPopUpShown={isPopUpShown} setIsPopUpShown={setIsPopUpShown}>
         <h2 className="mb-4 text-18reg lg:text-24reg font-prosto uppercase text-center text-black">
-          {t("title")}
+          {t("popUps.callback.title")}
         </h2>
         <p className="mb-6 text-black text-center text-[12px] lg:text-[14px]">
-          {t("description")}
+          {t("popUps.callback.description")}
         </p>
         <CallBackForm
           setIsError={setIsError}
           setIsNotificationShown={setIsNotificationShown}
           setIsPopUpShown={setIsPopUpShown}
+          text={t("buttons.leaveApplication")}
           variant="black"
         />
       </Modal>
@@ -39,6 +40,8 @@ export default function CallBackPop({
         isError={isError}
         setIsError={setIsError}
         setIsNotificationShown={setIsNotificationShown}
+        title={t("popUps.notifications.heroSuccessful.title")}
+        description={t("popUps.notifications.heroSuccessful.description")}
       />
     </>
   );

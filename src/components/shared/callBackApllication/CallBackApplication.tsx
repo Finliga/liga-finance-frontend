@@ -6,7 +6,17 @@ import NotificationPopUp from "../pop-ups/NotificationPopUp";
 import AnimatedWrapper from "../animatedWrapper/AnimatedWrapper";
 import { fadeInAnimation } from "@/helpers/animation";
 
-export default function CallBackApplication() {
+interface CallBackApplicationProps {
+  text: string;
+  title: string;
+  description: string;
+}
+
+export default function CallBackApplication({
+  text,
+  title,
+  description,
+}: CallBackApplicationProps) {
   const [isError, setIsError] = useState(false);
   const [isNotificationShown, setIsNotificationShown] = useState(false);
 
@@ -16,6 +26,7 @@ export default function CallBackApplication() {
         <CallBackForm
           setIsError={setIsError}
           setIsNotificationShown={setIsNotificationShown}
+          text={text}
         />
       </AnimatedWrapper>
 
@@ -24,6 +35,8 @@ export default function CallBackApplication() {
         isError={isError}
         setIsError={setIsError}
         setIsNotificationShown={setIsNotificationShown}
+        title={title}
+        description={description}
       />
     </>
   );

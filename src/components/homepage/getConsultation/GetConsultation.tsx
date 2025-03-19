@@ -7,7 +7,7 @@ import { fadeInAnimation } from "@/helpers/animation";
 import AnimatedWrapper from "@/components/shared/animatedWrapper/AnimatedWrapper";
 
 export default function GetConsultation() {
-  const t = useTranslations("homePage.getConsultation");
+  const t = useTranslations();
 
   return (
     <section
@@ -29,16 +29,22 @@ export default function GetConsultation() {
             animation={fadeInAnimation({ x: 100 })}
             className="mb-6 xl:mb-7 font-prosto uppercase text-center tab:text-left text-24reg xl:text-32reg leading-[130%]"
           >
-            {t("title")}
+            {t("homePage.getConsultation.title")}
           </AnimatedWrapper>
           <AnimatedWrapper
             as={motion.p}
             animation={fadeInAnimation({ x: -100 })}
             className="mb-8 xl:mb-12 text-center tab:text-left leading-[125%] text-[18px] "
           >
-            {t("description")}
+            {t("homePage.getConsultation.description")}
           </AnimatedWrapper>
-          <CallBackApplication />
+          <CallBackApplication
+            text={t("buttons.receive")}
+            title={t("popUps.notifications.getConsultationSuccessful.title")}
+            description={t(
+              "popUps.notifications.getConsultationSuccessful.description"
+            )}
+          />
         </div>
         <GetConsultationImages />
       </div>

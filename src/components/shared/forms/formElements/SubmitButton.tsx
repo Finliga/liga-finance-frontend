@@ -7,6 +7,7 @@ interface SubmitButtonProps {
   dirty: boolean;
   isValid: boolean;
   isLoading: boolean;
+  text: string;
   variant?: "white" | "black";
 }
 
@@ -14,6 +15,7 @@ export default function SubmitButton({
   dirty,
   isValid,
   isLoading,
+  text,
   variant = "white",
 }: SubmitButtonProps) {
   const t = useTranslations("buttons");
@@ -26,7 +28,7 @@ export default function SubmitButton({
       className="w-full"
       variant={variant}
     >
-      {isLoading ? t("sending") : t("sendMessage")}
+      {isLoading ? t("sending") : text}
     </WhiteButton>
   );
 }

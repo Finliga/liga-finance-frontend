@@ -143,6 +143,9 @@
   "buttons": {
     "leaveContacts": "Leave contacts",
     "freeConsultation": "Free consultation",
+    "leaveApplication": "Leave a request",
+    "send": "Send",
+    "receive": "Receive",
     "sendMessage": "Send message",
     "sending": "Sending..."
   },
@@ -186,6 +189,18 @@
   },
   "popUps": {
     "notifications": {
+      "heroSuccessful": {
+        "title": "Thank You for Your Application!",
+        "description": "Our manager will contact you for a detailed consultation."
+      },
+      "getCalculationSuccessful": {
+        "title": "Your application has been successfully submitted!",
+        "description": "We will contact you shortly."
+      },
+      "getConsultationSuccessful": {
+        "title": "Thank you for your application!",
+        "description": "Our managers will contact you shortly."
+      },
       "successful": {
         "title": "Your request has been successfully sent!",
         "description": "Our managers are already processing your request and will contact you shortly."
@@ -194,6 +209,10 @@
         "title": "Request submission failed!",
         "description": "Unfortunately, something went wrong. Please try submitting your request again or call us."
       }
+    },
+    "callback": {
+      "title": "Free Consultation",
+      "description": "If we don’t call you back within 30 minutes, you’ll receive a 30% discount for the first month."
     }
   },
   "companyName": "Finance League"

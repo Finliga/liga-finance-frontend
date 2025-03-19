@@ -7,7 +7,7 @@ import { fadeInAnimation } from "@/helpers/animation";
 import AnimatedWrapper from "@/components/shared/animatedWrapper/AnimatedWrapper";
 
 export default function GetSuccess() {
-  const t = useTranslations("homePage.getSuccess");
+  const t = useTranslations();
 
   return (
     <section className="relative pt-[140px] pb-[120px] tab:py-[98px] overflow-hidden">
@@ -26,16 +26,20 @@ export default function GetSuccess() {
             animation={fadeInAnimation({ x: 100 })}
             className="mb-6 xl:mb-7 font-prosto uppercase text-center tab:text-left text-24reg xl:text-32reg leading-[130%]"
           >
-            {t("title")}
+            {t("homePage.getSuccess.title")}
           </AnimatedWrapper>
           <AnimatedWrapper
             as={motion.p}
             animation={fadeInAnimation({ x: -100 })}
             className="mb-8 xl:mb-12 text-center tab:text-left leading-[125%] text-[18px] "
           >
-            {t("description")}
+            {t("homePage.getSuccess.description")}
           </AnimatedWrapper>
-          <CallBackApplication />
+          <CallBackApplication
+            text={t("buttons.sendMessage")}
+            title={t("popUps.notifications.successful.title")}
+            description={t("popUps.notifications.successful.description")}
+          />
         </div>
         <GetSuccessImages />
       </div>
