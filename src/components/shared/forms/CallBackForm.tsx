@@ -19,7 +19,7 @@ export interface ValuesCallBackFormType {
 interface CallBackFormProps {
   setIsError: Dispatch<SetStateAction<boolean>>;
   setIsNotificationShown: Dispatch<SetStateAction<boolean>>;
-  setIsPopUpShown: Dispatch<SetStateAction<boolean>>;
+  setIsPopUpShown?: Dispatch<SetStateAction<boolean>>;
   variant?: "black" | "white";
 }
 

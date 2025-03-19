@@ -55,7 +55,6 @@ export default function Hero() {
           >
             {t("homePage.hero.description")}
           </AnimatedWrapper>
-
           <FreeConsultationApplication />
         </div>
         <HeroImages />
