@@ -144,6 +144,8 @@
     "leaveContacts": "Leave contacts",
     "freeConsultation": "Free consultation",
     "leaveApplication": "Leave a request",
+    "send": "Send",
+    "receive": "Receive",
     "sendMessage": "Send message",
     "sending": "Sending..."
   },
@@ -188,7 +190,16 @@
   "popUps": {
     "notifications": {
       "heroSuccessful": {
-        "title": "Thank You for Your Application!"
+        "title": "Thank You for Your Application!",
+        "description": "Our manager will contact you for a detailed consultation."
+      },
+      "getCalculationSuccessful": {
+        "title": "Your application has been successfully submitted!",
+        "description": "We will contact you shortly."
+      },
+      "getConsultationSuccessful": {
+        "title": "Thank you for your application!",
+        "description": "Our managers will contact you shortly."
       },
       "successful": {
         "title": "Your request has been successfully sent!",

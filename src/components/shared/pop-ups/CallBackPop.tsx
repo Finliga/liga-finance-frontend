@@ -41,6 +41,7 @@ export default function CallBackPop({
         setIsError={setIsError}
         setIsNotificationShown={setIsNotificationShown}
         title={t("popUps.notifications.heroSuccessful.title")}
+        description={t("popUps.notifications.heroSuccessful.description")}
       />
     </>
   );

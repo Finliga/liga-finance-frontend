@@ -145,6 +145,8 @@
     "leaveContacts": "Залишити контакти",
     "freeConsultation": "Безкоштовна консультація",
     "leaveApplication": "Залишити заявку",
+    "send": "Відправити",
+    "receive": "Отримати",
     "sendMessage": "Надіслати",
     "sending": "Надсилання..."
   },
@@ -189,7 +191,16 @@
   "popUps": {
     "notifications": {
       "heroSuccessful": {
-        "title": "Дякуємо за Вашу заявку​!"
+        "title": "Дякуємо за Вашу заявку​!",
+        "description": "Наш менеджер з Вами зв’яжеться для детальної консультації."
+      },
+      "getCalculationSuccessful": {
+        "title": "Ваша заявка успішно відправлена​!",
+        "description": "Ми зв'яжемося з вами найближчим часом."
+      },
+      "getConsultationSuccessful": {
+        "title": "Дякуємо за Вашу заявку!",
+        "description": "Наші менеджери зв'яжуться з Вами в найкоротший термін."
       },
       "successful": {
         "title": "Ваша заявка успішно надіслана!",

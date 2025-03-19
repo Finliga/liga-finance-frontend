@@ -10,7 +10,7 @@ interface NotificationPopUpProps {
   isError: boolean;
   setIsError: Dispatch<SetStateAction<boolean>>;
   title: string;
-  description?: string;
+  description: string;
 }
 
 export default function NotificationPopUp({
@@ -40,12 +40,9 @@ export default function NotificationPopUp({
           >
             {`${isError ? t("unsuccessful.title") : title}`}
           </h2>
-
-          {description ? (
-            <p className="text-14reg tab:text-18reg text-center">
-              {`${isError ? t("unsuccessful.description") : description}`}
-            </p>
-          ) : null}
+          <p className="text-14reg tab:text-18reg text-center">
+            {`${isError ? t("unsuccessful.description") : description}`}
+          </p>
         </div>
       </Modal>
       <Backdrop isVisible={isNotificationShown} onClick={closeNotification} />
