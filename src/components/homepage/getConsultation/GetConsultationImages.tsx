@@ -25,13 +25,13 @@ export default function GetConsultationImages() {
       </AnimatedWrapper>
       <AnimatedWrapper
         animation={fadeInAnimation({ scale: 0.8 })}
-        className="hidden lg:block absolute -z-10 bottom-[-120px] tab:bottom-[-108px] right-[60px] w-[516px] h-auto"
+        className="hidden lg:block absolute -z-10 bottom-[-120px] tab:bottom-[-108px] right-[-25px] xl:right-[41px] w-[516px] h-auto"
       >
         <Image
           src="/images/getConsultation/woman.webp"
           alt="woman"
-          width={1034}
-          height={1174}
+          width={1030}
+          height={1228}
           className="w-[516px] h-auto"
         />
       </AnimatedWrapper>
