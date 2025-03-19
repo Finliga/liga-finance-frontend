@@ -5,7 +5,7 @@ export interface ButtonProps {
   ariaLabel?: string;
   className?: string;
   type?: "submit" | "button";
-  variant?: "primary" | "secondary";
+  variant?: "white" | "black";
   disabled?: boolean;
   isLoading?: boolean;
   onClick?: () => void | Dispatch<SetStateAction<boolean>>;

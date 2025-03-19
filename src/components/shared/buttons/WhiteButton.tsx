@@ -7,6 +7,7 @@ export default function WhiteButton({
   type = "button",
   disabled = false,
   isLoading = false,
+  variant = "white",
   onClick,
 }: ButtonProps) {
   return (
@@ -14,9 +15,13 @@ export default function WhiteButton({
       type={type}
       disabled={disabled}
       onClick={onClick}
-      className={`group relative overflow-hidden flex items-center justify-center px-4 py-[13.5px] border border-white text-14reg rounded-full transition duration-300 ease-out enabled:active:scale-95 
-        bg-white text-black disabled:bg-transparent disabled:border-white/50 disabled:text-white/50
-          
+      className={`group relative overflow-hidden flex items-center justify-center px-4 py-[13.5px] border  text-14reg rounded-full transition duration-300 ease-out enabled:active:scale-95 
+        disabled:bg-transparent
+         ${
+           variant === "white"
+             ? "border-white bg-white text-black disabled:border-white/50 disabled:text-white/50"
+             : "border-black bg-black text-white disabled:border-black/50 disabled:text-black/50"
+         } 
         ${isLoading ? "" : ""} 
         ${className}`}
     >

@@ -19,11 +19,15 @@ export interface ValuesCallBackFormType {
 interface CallBackFormProps {
   setIsError: Dispatch<SetStateAction<boolean>>;
   setIsNotificationShown: Dispatch<SetStateAction<boolean>>;
+  setIsPopUpShown: Dispatch<SetStateAction<boolean>>;
+  variant?: "black" | "white";
 }
 
 export default function CallBackForm({
   setIsError,
   setIsNotificationShown,
+  setIsPopUpShown,
+  variant = "white",
 }: CallBackFormProps) {
   const [isLoading, setIsLoading] = useState(false);
   const t = useTranslations("");
@@ -49,7 +53,8 @@ export default function CallBackForm({
       setIsLoading,
       setIsError,
       setIsNotificationShown,
-      data
+      data,
+      setIsPopUpShown
     );
   };
 
@@ -66,6 +71,7 @@ export default function CallBackForm({
             placeholder={t("forms.namePlaceholder")}
             errors={errors}
             touched={touched}
+            variant={variant}
           />
           <CustomizedInput
             fieldName="phone"
@@ -76,8 +82,14 @@ export default function CallBackForm({
             as={MaskedInput}
             mask={phoneMask}
             autocomplete="tel-national"
+            variant={variant}
           />
-          <SubmitButton dirty={dirty} isValid={isValid} isLoading={isLoading} />
+          <SubmitButton
+            dirty={dirty}
+            isValid={isValid}
+            isLoading={isLoading}
+            variant={variant}
+          />
         </Form>
       )}
     </Formik>
