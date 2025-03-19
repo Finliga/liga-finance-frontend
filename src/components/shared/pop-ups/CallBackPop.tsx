@@ -1,3 +1,4 @@
+"use client";
 import { Dispatch, SetStateAction, useState } from "react";
 import { useTranslations } from "next-intl";
 import Modal from "../modal/Modal";
