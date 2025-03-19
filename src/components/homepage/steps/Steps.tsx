@@ -10,7 +10,7 @@ export default function Steps() {
   return (
     <section
       id="steps"
-      className="pt-[100px] xl:pt-[180px] scroll-mt-6 mx-auto overflow-x-hidden"
+      className="pt-[100px] xl:pt-[180px] scroll-mt-6 mx-auto overflow-x-clip"
     >
       <AnimatedWrapper
         as={motion.h2}
