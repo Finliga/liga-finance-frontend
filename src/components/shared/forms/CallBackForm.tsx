@@ -20,6 +20,7 @@ interface CallBackFormProps {
   setIsError: Dispatch<SetStateAction<boolean>>;
   setIsNotificationShown: Dispatch<SetStateAction<boolean>>;
   setIsPopUpShown?: Dispatch<SetStateAction<boolean>>;
+  text: string;
   variant?: "black" | "white";
 }
 
@@ -27,6 +28,7 @@ export default function CallBackForm({
   setIsError,
   setIsNotificationShown,
   setIsPopUpShown,
+  text,
   variant = "white",
 }: CallBackFormProps) {
   const [isLoading, setIsLoading] = useState(false);
@@ -89,6 +91,7 @@ export default function CallBackForm({
             isValid={isValid}
             isLoading={isLoading}
             variant={variant}
+            text={text}
           />
         </Form>
       )}

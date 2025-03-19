@@ -9,6 +9,8 @@ interface NotificationPopUpProps {
   setIsNotificationShown: Dispatch<SetStateAction<boolean>>;
   isError: boolean;
   setIsError: Dispatch<SetStateAction<boolean>>;
+  title: string;
+  description?: string;
 }
 
 export default function NotificationPopUp({
@@ -16,6 +18,8 @@ export default function NotificationPopUp({
   setIsNotificationShown,
   isError,
   setIsError,
+  title,
+  description,
 }: NotificationPopUpProps) {
   const t = useTranslations("popUps.notifications");
 
@@ -34,12 +38,14 @@ export default function NotificationPopUp({
           <h2
             className={`relative font-prosto text-center text-20reg tab:text-24reg tab:uppercase`}
           >
-            {t(`${isError ? "unsuccessful" : "successful"}.title`)}
+            {`${isError ? t("unsuccessful.title") : title}`}
           </h2>
 
-          <p className="text-14reg tab:text-18reg text-center">
-            {t(`${isError ? "unsuccessful" : "successful"}.description`)}
-          </p>
+          {description ? (
+            <p className="text-14reg tab:text-18reg text-center">
+              {`${isError ? t("unsuccessful.description") : description}`}
+            </p>
+          ) : null}
         </div>
       </Modal>
       <Backdrop isVisible={isNotificationShown} onClick={closeNotification} />
