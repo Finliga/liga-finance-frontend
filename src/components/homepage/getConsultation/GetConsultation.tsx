@@ -39,7 +39,7 @@ export default function GetConsultation() {
             {t("homePage.getConsultation.description")}
           </AnimatedWrapper>
           <CallBackApplication
-            text={t("buttons.send")}
+            text={t("buttons.receive")}
             title={t("popUps.notifications.getConsultationSuccessful.title")}
             description={t(
               "popUps.notifications.getConsultationSuccessful.description"
