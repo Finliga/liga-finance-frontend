@@ -34,22 +34,22 @@ export default function Benefits() {
           <Image
             src="/images/benefits/womanDesk.webp"
             alt="background"
-            width={1244}
-            height={1276}
+            width={1170}
+            height={1312}
             className="hidden tab:block tab:w-[422px] xl:w-[622px] h-auto object-cover object-right"
           />
         </AnimatedWrapper>
 
         <AnimatedWrapper
           animation={fadeInAnimation({ x: 100, delay: 1.6 })}
-          className="tab:hidden absolute bottom-[-364px] sm:bottom-[-398px] right-0 -z-10 w-full h-[510px] sm:h-[660px] overflow-hidden"
+          className="tab:hidden absolute bottom-[-364px] sm:bottom-[-398px] right-0 -z-10 w-full h-[535px] sm:h-[660px] overflow-hidden"
         >
           <Image
             src="/images/benefits/bgMob.webp"
             alt="background"
             width={1102}
-            height={1036}
-            className="w-full h-full object-cover object-[calc(50%+80px)_center]"
+            height={1050}
+            className="w-full h-full object-cover object-[calc(50%+65px)_center]"
           />
         </AnimatedWrapper>
       </div>
