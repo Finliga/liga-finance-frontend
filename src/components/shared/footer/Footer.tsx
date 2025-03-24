@@ -3,6 +3,7 @@ import Logo from "../logo/Logo";
 import FooterInfo from "./FooterInfo";
 import FooterBottom from "./FooterBottom";
 import NavMenu from "./NavMenu";
+import MessengersList from "./MessengersList";
 
 export default function Footer() {
   return (
@@ -23,6 +24,7 @@ export default function Footer() {
           <NavMenu />
           <FooterInfo />
         </div>
+        <MessengersList />
         <FooterBottom />
       </div>
     </footer>
