@@ -9,8 +9,7 @@ export default function IconTelegram({ className }: IconProps) {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       aria-label="icon telegram"
-      className={`outline-none laptop:group-hover:text-telegram group-focus-visible:text-telegram group-active:text-telegram 
-        transition duration-300 ease-out ${className}`}
+      className={`outline-none size-8 ${className}`}
     >
       <rect width="40" height="40" rx="20" fill="currentColor" />
       <path
