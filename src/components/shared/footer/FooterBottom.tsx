@@ -5,7 +5,7 @@ export default function FooterBottom() {
   const t = useTranslations("footer");
 
   return (
-    <div className="flex flex-col tab:flex-row tab:justify-between mt-6 tab:mt-[52px]">
+    <div className="flex flex-col tab:flex-row tab:justify-between mt-6 tab:mt-8">
       <p className="mb-2 text-8reg tab:text-12reg lg:text-16reg uppercase leading-[130%]">
         {t("rights")}
       </p>
