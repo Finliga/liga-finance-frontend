@@ -68,6 +68,10 @@ export default async function LocaleLayout({
         <GoogleTagManager
           gtmId={baseUrl === "https://www.finliga.com.ua/" ? GTM_ID : ""}
         />
+        <meta
+          name="google-site-verification"
+          content="w6su7eSskSxDbXVO1UuK3eblrLG5erR1uXOf8jFuT68"
+        />
       </head>
       <body
         className={`${montserrat.variable} ${prosto.variable} relative z-[1] flex min-h-screen flex-col antialiased text-12light lg:text-16light`}
